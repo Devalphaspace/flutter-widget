@@ -69,13 +69,14 @@ class CustomCard extends StatelessWidget {
                                     ),
                                   ),
                                   child: const Center(
-                                      child: Text(
-                                    "2.45 ETH",
-                                    style: TextStyle(
-                                      fontSize: 12,
-                                      color: Colors.green,
+                                    child: Text(
+                                      "2.45 ETH",
+                                      style: TextStyle(
+                                        fontSize: 12,
+                                        color: Colors.green,
+                                      ),
                                     ),
-                                  )),
+                                  ),
                                 )
                               ],
                             ),
@@ -87,7 +88,7 @@ class CustomCard extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.center,
                               mainAxisSize: MainAxisSize.max,
                               children: [
-                                Stack(``
+                                Stack(
                                   alignment: Alignment.centerLeft,
                                   children: [
                                     const SizedBox(
